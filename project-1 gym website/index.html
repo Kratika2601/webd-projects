@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Fitness</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-image: url("img/bg2.jpg");
+            color: white;
+        }
+
+        .left {
+            display: inline-block;
+            position: absolute;
+            top: 10px;
+            left: 24px;
+            text-align: center;
+            font-size: 12px;
+        }
+
+        .left img {
+            height: 60px;
+            width: 60px;
+            filter: invert(100%);
+        }
+
+        .mid {
+            display: block;
+            width: 50%;
+            margin: 10px auto;
+        }
+
+        .navbar {
+            list-style: none;
+        }
+
+        .navbar li {
+            display: inline-block;
+            margin: 13px 13px;
+            padding-top: 4px;
+            font-size: 18px;
+        }
+
+        .navbar li a {
+            padding: 1px 1px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .navbar li a:hover {
+            color: rgb(149, 149, 149);
+        }
+
+        .right {
+            display: inline-block;
+            position: absolute;
+            top: 10px;
+            right: 24px;
+        }
+        .btn{
+            background-color: black;
+            padding: 2px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: rgb(49, 49, 49);
+        }
+        .btn img {
+            height: 30px;
+            width: 30px;
+        }
+        .container{
+            border: 2px solid white;
+            margin: 130px 850px;
+            padding: 45px;
+            width: 25%;
+        }
+        .formgroup input{
+            display: block;
+            text-align: center;
+            margin: 5px auto;
+            padding: 1px;
+            width:350px;
+            font-size: 15px;
+        }
+        .okayyy input{
+            display: inline-block;
+            text-align: center;
+            margin: 11px 0px 11px 10px;
+            padding: 1px;
+        }
+        .container h1{
+            text-align: center;
+        } 
+    </style>
+</head>
+<!-- <link rel="stylesheet" href="css/style.css"> -->
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/silhouette-3276824_640.webp" alt="">
+            <div>MY FITNESS</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Schedules</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn"><img src="img/gmail-1162901_640.webp" alt=""></button>
+            <button class="btn"><img src="img/whatsapp-1844471_640.webp" alt=""></button>
+            <button class="btn"><img src="img/icon-1562136_640.webp" alt=""></button>
+        </div>
+    </header>
+    <div class="container">
+        <h3>JOIN THE BEST GYM IN JAIPUR NOW!!!</h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="okayyy">
+                <input type="submit" value="SUBMIT NOW">
+                <input type="reset" value="RESET">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
